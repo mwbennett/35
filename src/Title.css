@@ -1,10 +1,12 @@
 .Container {
   height: 100vh;
+  background-image: url("./images/celebrate.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-shadow: black 0 4px 12px;
 }
 
 .Title {
-  animation: glow 5s ease-in infinite;
-  color: #9cdbff;
   font-size: 256px;
   margin: 0;
   align-items: center;
@@ -15,19 +17,9 @@
 
 .Subtitle {
   bottom: 10px;
+  font-size: 28px;
+  font-weight: 700;
   text-align: center;
   position: absolute;
   width: 100%;
-}
-
-@keyframes glow {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 25%;
-  }
-  100% {
-    opacity: 1;
-  }
 }

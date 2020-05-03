@@ -1,12 +1,8 @@
 body {
-  background: #32325d;
-  color: #cfd7df;
+  background: #02758d;
+  color: #D5AD6D;
 }
 
 .App {
   text-align: center;
-}
-
-.ContentSection {
-  margin: 50vh 12px;
 }

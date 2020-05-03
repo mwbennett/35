@@ -1,0 +1,19 @@
+.ContentSection {
+  margin: 50vh auto;
+  max-width: 80%;
+  display: flex;
+}
+
+.ImageWrapper {
+  display: flex;
+  flex: 1;
+}
+
+.TextWrapper {
+  display: flex;
+  flex: 1;
+}
+
+img {
+  max-width: 100%;
+}
